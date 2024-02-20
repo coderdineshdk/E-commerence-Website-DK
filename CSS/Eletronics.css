@@ -1,0 +1,128 @@
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 60px; /* Adjust this value based on your footer height */
+    background-color: #f8f8f8; /* Light background color */
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #232f3e; /* Dark background color */
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text color for the navbar items */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the navbar toggle icon */
+  }
+  
+  /* Search box styling */
+  .form-inline .form-control {
+    width: 300px; /* Adjust the width of the search box */
+  }
+  
+  /* Category Section styling */
+  .container {
+    background-color: #f8f9fa; /* Light background color for the category section */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  /* Add any additional custom styles here */
+  .category-card {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .category-image {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-img-top {
+    background-color: black; /* Black background color for the category images */
+    border-bottom: 1px solid #dee2e6; /* Add a border between image and title */
+  }
+  
+  .card-title {
+    color: black; /* Dark text color for the category titles */
+  }
+  
+  /* Main Content styling (add your custom styles) */
+  #carouselExample {
+    height: 400px; /* Set the desired height */
+  }
+  
+  /* Add this style to set the image size to 50px */
+  .card-img {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+  }
+  
+  /* Site Footer styling */
+  .site-footer {
+    background-color: #232f3e; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 40px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
+  }
+  
+  .site-footer h5 {
+    color: #ffffff; /* White text color */
+  }
+  
+  .site-footer address {
+    color: #ffffff; /* White text color */
+  }
+  
+  .site-footer ul.list-unstyled {
+    padding: 0;
+    list-style: none;
+    color: #ffffff; /* White text color */
+  }
+  
+  .site-footer ul.list-unstyled li {
+    padding: 5px 0;
+  }
+  
+  .site-footer p {
+    margin-top: 20px;
+    color: #ffffff; /* White text color */
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #ffffff; /* White icon color */
+    margin-right: 10px;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  
+  /* Image Section styling */
+  .image-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Adjust the width and height of the images */
+  .image-section img {
+    width: 500px;
+    height: 300px;
+    object-fit: initial;
+    margin-left: 10px;
+    border-radius: 8px; /* Optional: Add rounded corners */
+  }
+  
